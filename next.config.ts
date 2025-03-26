@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: "https://www.teachkindness.com",
+  assetPrefix: "https://teachkindness.com",
   basePath: "",
 };
 
