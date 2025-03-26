@@ -8,8 +8,14 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+}
+@theme {
+  --color-kindness-pink: #ffb6c1;
+  --color-kindness-purple: #d8bfd8;
+  --color-kindness-blue: #add8e6;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-handletter: var(--font-handletter);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +26,6 @@
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-shortStack), Arial, Helvetica, sans-serif;
 }

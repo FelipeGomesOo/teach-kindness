@@ -1,0 +1,3 @@
+git add .
+git commit -m "Configuração para GitHub Pages"
+git push origin master
